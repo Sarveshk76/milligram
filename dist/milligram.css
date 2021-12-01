@@ -25,7 +25,11 @@ body {
   letter-spacing: .01em;
   line-height: 1.6;
 }
-
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #fff;
+  }
+}
 blockquote {
   border-left: 0.3rem solid #d1d1d1;
   margin-left: 0;
